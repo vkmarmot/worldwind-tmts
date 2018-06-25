@@ -1,0 +1,30 @@
+{
+  "name": "world-wind-tmts",
+  "version": "0.0.1",
+  "description": "world wind plugin for tmts",
+  "main": "src/lib.ts",
+  "dependencies": {
+    "@nasaworldwind/worldwind": "^0.9.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tmts",
+    "worldwind",
+    "typescript",
+    "gis"
+  ],
+  "author": "vkmarmot@yandex.ru",
+  "license": "ISC"
+}
